@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     max-width: 100%;
+    
    
 }
 
@@ -17,8 +18,7 @@
     height: 100vh;
     background-attachment: fixed;
     text-align: center;
-
-  
+    padding-top: 40px;
 
 }
 
@@ -29,7 +29,6 @@
     position: absolute;
     text-align: center; 
     color: black;
-    margin-top: 10px;
 }
 
 
@@ -44,13 +43,12 @@ ul, li, a{
     word-spacing: 34px;
     font-weight: bold;
     letter-spacing:  2px;
-    margin-top: 10px;
 
 }
 
 
 nav {
-    margin: 5px auto;
+    margin: auto;
     height: 10%;
     width: 35%;
     border-radius: 10px;
@@ -62,11 +60,9 @@ nav {
 
 h1{
     font-size:200px;
-    font-family: 'Barriecito', sans-serif;
-
-
-       
+    font-family: 'Barriecito', sans-serif; 
 }
+
 
 p{
     font-family: 'Poppins', sans-serif;
@@ -122,7 +118,7 @@ ul li:hover {
     padding-top: 10px;
     font-family: 'Poppins', sans-serif;
     background-image: url(pics/dawg.png);
-    height: 640px;
+    height: 1040px;
     width: 100vw;
     background-color: rgb(70, 70, 70);
     background-blend-mode: multiply;
@@ -160,7 +156,6 @@ ul li:hover {
     grid-gap: 20px;
     justify-content: center;
     align-items: center;
-
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     color: white;
@@ -173,7 +168,7 @@ ul li:hover {
     width: 300px;
     background-color: rgb(255, 255, 255);
     border-radius: 18px;
-
+    margin-bottom: 70px;
 }
 
 img{
@@ -191,6 +186,7 @@ img{
 
 .box p{
     letter-spacing: normal;
+ 
     
 }
 
@@ -205,7 +201,7 @@ img{
 /*third layer */
 
 .adopt{
-    background-image: url(pics/thank\ you.jpg);
+    background-image: url(pics/thank\ you.jpg); 
     background-size: cover;
     width: 100vw;
     height: 50vh;
@@ -222,10 +218,15 @@ img{
     
     text-align: center;
     padding-top: 5vw;
-    color: black;
+    color: rgb(255, 255, 255);
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
     font-size: 200px;  
-    text-shadow: 0 0 50px white;
-;
+   
     
 }
 
@@ -264,7 +265,7 @@ img{
 .description{
     color: white;
     float: right;
-    margin-top: 100px;
+    margin-top: 90px;
     margin-left: 30%;
     padding-left: 15%;
 
@@ -274,7 +275,7 @@ img{
     font-family: 'Barriecito', sans-serif;
     color:white;
     text-align: left;
-    font-size: 100px;
+    font-size: 80px;
 
 }
 
@@ -285,6 +286,7 @@ img{
     padding-right: 9%;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
+    padding-top: 30px;
    
 }
 
@@ -323,23 +325,6 @@ footer {
 
 
 
-
-.footernav ul{
-    display: flex;
-    justify-content: center;
-}
-
-
-.footernav ul li a{
-    color: black;
-    margin: 20px;
-    text-decoration: none;
-    font-size: 10 px;
-    opacity: 0.7;
-
-}
-
-
 .footerbtm  {
   padding: 20px;
   text-align: center;
@@ -372,7 +357,7 @@ footer {
 
 
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #f1f1f1;
+    background-color: #ffffff00;
 }
 
 
@@ -406,6 +391,7 @@ footer {
 
 .dropdown-content a:hover, .dropdown-content a:focus {
     background-color:bisque;
+    height: auto;
     border-radius: 10px;
 }
 
@@ -416,8 +402,9 @@ footer {
 
 
 .dropdown:hover .dropbtn {
-    background-color: rgb(255, 193, 122);
-    border-radius: 10px;
+ color: rgb(93, 62, 28);
+ height: fit-content;
+    
 }
 
 
