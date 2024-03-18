@@ -5,7 +5,6 @@ html, body {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    overflow: hidden; /* Prevent scrolling */
   }
   
 
@@ -213,6 +212,56 @@ ul li:hover {
  color: rgb(93, 62, 28);
  height: fit-content;
     
+}
+
+
+
+footer {    
+    background-image: url(pics/footer.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 30vh;
+    display: block;
+    margin-top: -40px;
+    border-radius: 40px;
+    padding-top: 40px;
+
+}
+
+
+
+.socials{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.socials a{
+    text-decoration: none;
+    padding: 30px;
+
+}
+
+.socials a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+
+
+.footerbtm  {
+  padding: 20px;
+  text-align: center;
+
+}
+
+.designer{
+    font-family: 'Barriecito', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px 5px;
+    font-size: 50px;
 }
 
 
